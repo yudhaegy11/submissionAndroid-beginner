@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameDeskripsi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/img_item_photo"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/img_item_photo"
+                    android:orientation="vertical"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    >
+                    <TextView
+                        android:text="Nama Games"
+                        style="@style/TextJudul"/>
+                    <TextView
+                        style="@style/Text1"
+                        android:id="@+id/tv_item_name"
+                        android:text="Name"
+
+                        android:layout_marginBottom="8dp"/>
+                    <TextView
+                        android:text="Nama Games"
+                        style="@style/TextJudul"/>
+                    <TextView
+                        style="@style/Text1"
+                        android:id="@+id/tv_item_remarks"
+                        android:text="Remarks"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:text=" "
+            style="@style/TextJudul"/>
+        <TextView
+
+            android:text="Deskripsi"
+
+            style="@style/TextJudul"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10sp"
+            android:textStyle="normal"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/content_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/games_name" />
+    </LinearLayout>
+
+
+
+</FrameLayout>

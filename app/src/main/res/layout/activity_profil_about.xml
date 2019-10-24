@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPict"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/profil_gua"/>
+    <TextView
+        android:textSize="30dp"
+        android:textColor="@color/cardview_dark_background"
+        android:gravity="center"
+        android:id="@+id/tvMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mohammad Yudha Fergiansyah"
+        android:layout_below="@+id/myPict"/>
+    <TextView
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="yudhaegy30@gmail.com"
+        android:layout_below="@+id/tvMy"/>
+</RelativeLayout>

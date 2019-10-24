@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">List Top 10 Gacha Games</string>
+    <string name="games_name">Nama Games</string>
+    <string name="detail">Detail</string>
+    <string name="genre">genre</string>
+    <string name="jenis">jenis</string>
+    <string name="Genre">Genre</string>
+    <string name="Jenis">Jenis</string>
+    <string name="profil">profil</string>
+</resources>
